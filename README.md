@@ -1,28 +1,32 @@
 # Jenkins-Docker-CICDProject
 
-[![Build Status](your_build_status_badge)](link_to_build_status)
-[![Code Coverage](your_code_coverage_badge)](link_to_code_coverage)
-[![License](your_license_badge)](link_to_license)
-
 ## Overview
 
-Brief project overview and purpose.
+This Jenkins Pipeline project automates the deployment of a Node.js ToDo application using Docker on an AWS Ubuntu instance. It streamlines the process of building, testing, and deploying the application, ensuring a reliable and reproducible deployment pipeline.
 
 ## Features
 
-- List key features of your DevOps project.
+- **Continuous Integration/Continuous Deployment (CI/CD):** Automate the entire software delivery process.
+- **Dockerized Deployment:** Utilize Docker containers for consistent deployment environments.
+- **AWS Integration:** Deploy the application on an AWS Ubuntu instance.
+- **Node.js Application Support:** Tailored for Node.js applications.
 
 ## Getting Started
 
-Instructions to set up and run the project locally.
+Follow the steps below to set up and run the Jenkins Pipeline locally:
 
-### Prerequisites
+## Prerequisites
 
-List any prerequisites or dependencies.
 
-### Installation
+1. AWS credentials configured with the necessary permissions.
+2. Jenkins installed and configured. 
+3. Docker installed on the target AWS Ubuntu instance.
 
-Step-by-step installation guide.
+## Installation
+
+1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/Saudshaikh07/Jenkins-Docker-CICDProject.git
 
 ## Usage
 
@@ -39,12 +43,4 @@ Brief explanation of the project's folder structure.
 ## Scripts
 
 If applicable, details about automation or deployment scripts.
-
-## Contributing
-
-Guidelines for contributors and how to get involved.
-
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
 
