@@ -10,6 +10,7 @@ This Jenkins Pipeline project automates the deployment of a Node.js ToDo applica
 - **Dockerized Deployment:** Utilize Docker containers for consistent deployment environments.
 - **AWS Integration:** Deploy the application on an AWS Ubuntu instance.
 - **Node.js Application Support:** Tailored for Node.js applications.
+- **GitHub Integration:** Integrate Github with Jenkins for automatically deploying the application when a change occurs.
 
 ## Getting Started
 
@@ -17,10 +18,17 @@ Follow the steps below to set up and run the Jenkins Pipeline locally:
 
 ## Prerequisites
 
+1. Jenkins Installed and Configured:
+Ensure Jenkins is installed on your local machine or server.
+Configure Jenkins with the necessary plugins for Docker and AWS integration.
 
-1. AWS credentials configured with the necessary permissions.
-2. Jenkins installed and configured. 
-3. Docker installed on the target AWS Ubuntu instance.
+2. AWS Credentials Configured:
+Create an AWS account if you don't have one.
+Configure AWS credentials with the required permissions for deploying resources.
+
+3. Docker Installed:
+Install Docker on the machine where Jenkins is running.
+Ensure the Docker daemon is up and running.
 
 ## Installation
 
@@ -42,5 +50,5 @@ Brief explanation of the project's folder structure.
 
 ## Scripts
 
-If applicable, details about automation or deployment scripts.
+Docker and Jenkins installation script -  [here](./install.sh/)
 
